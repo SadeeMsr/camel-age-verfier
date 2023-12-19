@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+@font-face {
+  font-family: "Camel_1";
+  src: url("assets/fonts/Camel_1.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Camel_2"; 
+  src: url("assets/fonts/Camel_2.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: "GraphikL"; 
+    src: url("assets/fonts/GraphikLight.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+@font-face {
+    font-family: "GraphikMD"; 
+    src: url("assets/fonts/GraphikMedium.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "GraphikReg"; 
+    src: url("assets/fonts/GraphikRegular.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: "GraphikBD"; 
+    src: url("assets/fonts/GraphikSemibold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+
+.Camel_1 {
+    font-family: 'Camel_1', sans-serif;
+}
+
+.Camel_2 {
+    font-family: 'Camel_2', sans-serif;
+}
+.GraphikL {
+    font-family: 'GraphikL', sans-serif;
+}
+.GraphikMD {
+    font-family: 'GraphikMD', sans-serif;
+}
+.GraphikReg {
+    font-family: 'GraphikReg', sans-serif;
+}
+.GraphikBD {
+    font-family: 'GraphikBD', sans-serif;
+}
+
+.border_Rounded{
+    border-radius: 3px;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
